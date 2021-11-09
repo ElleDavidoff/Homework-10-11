@@ -112,6 +112,66 @@ input[type=submit]:hover{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 5px;
 
 }
 /*Section-2-end*/
+
+/*Footer-start*/
+footer{
+    background-color: black;
+    padding: 120px;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+
+}
+
+.info{
+    width: 260px;
+    margin-right: 20px;
+}
+
+.info>p{
+    color:#B1B1B1;
+    font-size: 14px;
+    margin: 22px 0 20px 0;
+}
+
+.footer-container h5{
+    margin-bottom: 21px;
+    font-size: 18px;
+}
+
+.footer-container  li{
+    margin-bottom: 21px;
+    font-size: 14px;
+}
+
+.info li , .links li {
+    color:#5863F8 ;
+}
+
+.info img{
+    margin-right: 3px;
+}
+
+.mail-li::before{
+    content: url(../images/mail.svg);
+    margin-right: 10px;
+}
+.tel-li::before{
+    content: url(../images/phone.svg);
+    margin-right: 10px;
+}
+
+.adress-li::before{
+    content: url(../images/map-pin.svg);
+    margin-right: 10px;
+}
+
+
+/*Footer-end*/
