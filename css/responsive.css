@@ -1,0 +1,60 @@
+@media(max-width:1200px){
+    .section-1-container{
+        width: 90%;
+    }
+    .section-2-container{
+        width: 90%;
+    }
+}
+
+@media(max-width:950px){
+    .footer-container{
+        flex-wrap: wrap;
+    }
+    .footer-container:not(last-child)>div{
+        margin-right:15px;
+        margin-bottom:10px;
+    }
+}
+
+@media(max-width:480px){
+
+    .form-container{
+        flex-direction: column;
+    }
+
+    .textarea-container{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .input-container{
+        width: 100%;
+    }
+    .contact-container{
+        flex-direction: column;
+    }
+
+    .images{
+        flex-direction: column;
+    }
+
+    .images>img{
+        margin-bottom: 15px;
+        width: 100%;
+    }
+
+    footer{
+        padding: 60px;
+    }
+    .footer-container{
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .contact:not(last-child){
+        margin-bottom:15px
+    }
+    
+  
+}
